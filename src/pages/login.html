@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <link href="../index.css" rel="stylesheet" />
+    <title>User Login | Freelancer</title>
+  </head>
+  <body>
+    <div
+      class="w-96 flex flex-col mx-auto mt-5 px-6 py-12 bg-white rounded shadow shadow-gray-300"
+    >
+      <a href="../index.html">
+        <img
+          src="../assets/freelancer-logo.svg"
+          alt="Freelancer Logo"
+          class="w-52 mx-auto"
+        />
+      </a>
+      <h1 class="text-xl font-black text-center py-6">Welcome</h1>
+      <button
+        class="bg-blue-200 text-black py-2 font-black opacity-25 cursor-default"
+      >
+        Log in with Facebook
+      </button>
+      <div class="flex items-center justify-between py-3">
+        <hr class="grow border border-gray-300" />
+        <span class="mx-3 uppercase text-sm font-bold">Or</span>
+        <hr class="grow border border-gray-300" />
+      </div>
+      <form>
+        <input
+          type="email"
+          name="name"
+          placeholder="Email ou Username"
+          class="w-full border border-gray-200 px-3 py-1 mb-3 rounded-sm outline-none focus:border-blue-600"
+        />
+        <input
+          type="password"
+          name="pass"
+          placeholder="Password"
+          class="w-full border border-gray-200 px-3 py-1 mb-3 rounded-sm outline-none focus:border-blue-600"
+        />
+        <div class="flex justify-between my-3">
+          <div>
+            <input type="checkbox" name="terms" class="self-start mr-2" />
+            <span>Remeber me</span>
+          </div>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-blue-500 text-white py-2 font-bold rounded-sm"
+        >
+          Join Freelancer
+        </button>
+      </form>
+      <hr class="border border-gray-300 my-3" />
+      <p class="text-center text-xs mt-2">
+        Already have an account?
+        <a href="./signup.html" class="text-blue-600">Sign Up</a>
+      </p>
+    </div>
+  </body>
+</html>

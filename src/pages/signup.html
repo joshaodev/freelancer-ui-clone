@@ -3,19 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="src/assets/favicon.ico" />
-    <link href="./src/index.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <link href="../index.css" rel="stylesheet" />
     <title>User Signup | Freelancer</title>
   </head>
   <body>
     <div
       class="w-96 flex flex-col mx-auto mt-5 px-6 py-12 bg-white rounded shadow shadow-gray-300"
     >
-      <img
-        src="./src/assets/freelancer-logo.svg"
-        alt="Freelancer Logo"
-        class="w-52 mx-auto"
-      />
+      <a href="../index.html">
+        <img
+          src="../assets/freelancer-logo.svg"
+          alt="Freelancer Logo"
+          class="w-52 mx-auto"
+        />
+      </a>
       <h1 class="text-xl font-black text-center py-6">Sign Up</h1>
       <button
         class="bg-blue-200 text-black py-2 font-black opacity-25 cursor-default"
@@ -44,8 +46,19 @@
           <input type="checkbox" name="terms" class="self-start mr-2" />
           <span class="self-start text-sm">
             I agree to the Freelancer
-            <a href="#" class="underline text-blue-600">User Agreement</a> and
-            <a href="#" class="underline text-blue-600">Privacy Policy</a>.
+            <a
+              href="https://www.freelancer.com/about/terms"
+              target="_blank"
+              class="underline text-blue-600"
+              >User Agreement</a
+            >
+            and
+            <a
+              href="https://www.freelancer.com/about/privacy"
+              target="_blank"
+              class="underline text-blue-600"
+              >Privacy Policy</a
+            >.
           </span>
         </div>
         <button
@@ -57,7 +70,8 @@
       </form>
       <hr class="border border-gray-300 my-3" />
       <p class="text-center text-xs mt-2">
-        Already have an account? <a href="#" class="text-blue-600">Log in</a>
+        Already have an account?
+        <a href="./login.html" class="text-blue-600">Log in</a>
       </p>
     </div>
   </body>
